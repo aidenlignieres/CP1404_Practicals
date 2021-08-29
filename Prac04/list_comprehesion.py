@@ -36,3 +36,6 @@ almost_numbers = ['0', '10', '21', '3', '-7', '88', '9']
 numbers = [int(almost_numbers) for almost_numbers in almost_numbers]
 print(almost_numbers)
 
+# greater than 9 from the numbers (not strings) you just created
+large_numbers = [numbers for numbers in numbers if numbers > 9]
+print(large_numbers)
