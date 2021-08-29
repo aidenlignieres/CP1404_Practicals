@@ -21,4 +21,12 @@ print("The smallest number is {}".format(min(number_list)))
 print("The biggest number is {}".format(max(number_list)))
 print("The average of the numbers is {}".format(sum(number_list) / len(number_list)))
 
+# woefully inadequate security checker
+usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
+
+user_name = input("Please enter your username: ")
+if user_name in usernames:
+    print("Access Granted")
+else:
+    print("Access denied")
 
